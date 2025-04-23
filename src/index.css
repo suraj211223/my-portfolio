@@ -1,0 +1,6 @@
+@import "tailwindcss";
+@layer base {
+    :root {
+      --font-display: "Oswald", sans-serif;
+    }
+  }
