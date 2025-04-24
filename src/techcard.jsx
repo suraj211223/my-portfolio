@@ -11,12 +11,12 @@ const TechCard = ({ title, description, Icon, color }) => {
         <h3 className="text-xl font-semibold">{title}</h3>
       </div>
 
-      <p className="text-white/90 leading-relaxed flex-grow mb-4">
+      <p className="text-white/90 text-center leading-relaxed flex-grow mb-4">
         {description}
       </p>
 
       <div className="flex justify-end">
-        <span className="text-xs uppercase tracking-wider opacity-60">Learn more</span>
+        <span className="text-xs uppercase tracking-wider transition-all hover:opacity-100 hover:text-white hover:scale-110 opacity-60">Learn more</span>
       </div>
     </div>
   );

@@ -178,8 +178,8 @@ const ContactForm = ({ onSubmit }) => {
         <button
           type="submit"
           className="w-full bg-red-600 hover:bg-red-700 text-white font-semibold py-3 px-6 rounded-lg
-                     transition-all duration-300 transform hover:translate-y-[-2px] active:translate-y-0
-                     shadow-lg hover:shadow-red-700/50 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-opacity-50"
+                     transition-all duration-300 transform active:translate-y-0
+                     shadow-lg hover:shadow-red-700/50 hover:translate-y-1.5 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-opacity-50"
         >
           Send Message
         </button>

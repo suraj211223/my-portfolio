@@ -1,6 +1,6 @@
 import React from 'react';
 import { Route, Routes } from "react-router-dom";
-import Navbar from './Navbar'; // Adjust the path if needed
+import Navbar from './navbar'; // Adjust the path if needed
 import About from '../about';
 import Contact from './components/contact';
 import Projects from './Projects';

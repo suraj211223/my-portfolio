@@ -2,11 +2,16 @@ import { motion } from "framer-motion"
 
 const HandwritingText = ({ className = "" }) => {
   const letters = [
-    "M10,10 C10,5 20,5 20,10 C20,15 10,20 10,25 C10,30 20,30 20,25",      // S
-    "M30,10 L30,25 C30,30 40,30 40,25 L40,10",                            // U
-    "M50,10 L50,30 M50,10 C50,10 65,10 65,17.5 C65,25 50,25 50,25 C50,25 60,30 65,30", // R
-    "M75,30 L80,10 L85,30 M77,22 L83,22",                                 // A
-    "M95,10 L95,25 C95,30 85,30 85,25",                                   // J
+    // R
+    "M10,10 L10,30 M10,10 C10,10 25,10 25,17.5 C25,25 10,25 10,25 C10,25 20,30 25,30",
+    // U
+    "M35,10 L35,25 C35,30 45,30 45,25 L45,10",
+    // D (vertical + curved right side)
+    "M55,10 L55,30 M55,10 C70,10 70,30 55,30",
+    // R
+    "M75,10 L75,30 M75,10 C75,10 90,10 90,17.5 C90,25 75,25 75,25 C75,25 85,30 90,30",
+    // A
+    "M100,30 L105,10 L110,30 M102,22 L108,22",
   ]
 
   const pathVariants = {
@@ -30,7 +35,7 @@ const HandwritingText = ({ className = "" }) => {
 
   return (
     <motion.div className={`relative ${className}`}>
-      <svg width="110" height="40" viewBox="0 0 110 40" className="overflow-visible">
+      <svg width="120" height="40" viewBox="0 0 120 40" className="overflow-visible">
         {letters.map((path, index) => (
           <motion.path
             key={index}
