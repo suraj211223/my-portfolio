@@ -3,6 +3,8 @@ import ContactForm from '../components/ContactForm';
 import BackgroundShapes from '../components/shapes';
 import SuccessPopup from '../components/popup';
 import { ArrowLeft } from 'lucide-react';
+import { Link } from 'react-router-dom';
+
 
 const Contact = () => {
   const [showSuccess, setShowSuccess] = useState(false);
@@ -17,13 +19,13 @@ const Contact = () => {
       <BackgroundShapes />
       
       <div className="container mx-auto px-4 py-12 relative z-10">
-        <a 
-          href="/" 
+        <Link
+          to="/" 
           className="inline-flex items-center text-red-500 hover:text-red-400 transition-colors mb-8 group"
         >
           <ArrowLeft className="mr-2 h-5 w-5 group-hover:-translate-x-1 transition-transform" />
           Back to Home
-        </a>
+        </Link>
         
         <div className="max-w-4xl mx-auto">
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-2">Get in Touch</h1>
