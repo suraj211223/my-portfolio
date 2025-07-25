@@ -47,12 +47,12 @@ const Contact = () => {
                 
                 <div>
                   <h4 className="text-red-500 font-medium mb-1">Email</h4>
-                  <p className="text-gray-300">ultronrudra12345@gmail.com</p>
+                  <p className="text-gray-300">sd862768@gmail.com</p>
                 </div>
                 
                 <div>
                   <h4 className="text-red-500 font-medium mb-1">Phone</h4>
-                  <p className="text-gray-300">+91 7873652203</p>
+                  <p className="text-gray-300">+91 9348375633</p>
                 </div>
                 
                 <div>
