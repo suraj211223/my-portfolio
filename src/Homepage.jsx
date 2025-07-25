@@ -45,17 +45,17 @@ const Home = () => {
       <div className='text-white relative top-35 font-bold text-2xl left-8'>Find  Me  On</div>
       <ul className='flex gap-7 relative top-37 left-8'>
       <li>
-  <a href="https://www.facebook.com/profile.php?id=61552954138394" target="_blank" rel="noopener noreferrer">
+  <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
     <Facebook className="text-red-50 hover:scale-130 hover:text-red-400 transition-all" />
   </a>
 </li>
 <li>
-  <a href="https://www.instagram.com/ultron__gaming1/?hl=en" target="_blank" rel="noopener noreferrer">
+  <a href="https://www.instagram.com/suraj_das_03/" target="_blank" rel="noopener noreferrer">
     <Instagram className="text-red-50 hover:scale-130 hover:text-red-400 transition-all" />
   </a>
 </li>
 <li>
-  <a href="https://www.linkedin.com/in/rudra-bishoyi-94a9462a3/" target="_blank" rel="noopener noreferrer">
+  <a href="www.linkedin.com/in/suraj-das-8b2896232" target="_blank" rel="noopener noreferrer">
     <Linkedin className="text-red-50 hover:scale-130 hover:text-red-400 transition-all" />
   </a>
 </li>
