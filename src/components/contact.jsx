@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import ContactForm from '../components/ContactForm';
+import ContactForm from 'src/components/ContactForm';
 import BackgroundShapes from '../components/shapes';
 import SuccessPopup from '../components/popup';
 import { ArrowLeft } from 'lucide-react';
